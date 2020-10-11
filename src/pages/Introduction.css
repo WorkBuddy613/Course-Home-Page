@@ -11,16 +11,18 @@ h2, p {
         display: inline-block;
         font-size: 16px;
         position: relative;
-        left: 1610px
+        left: end;
   }
 
-  h3.pos-left{
+  .pos-left{
     position: relative;
-    left: 1555px;
+    left: end;
+    text-decoration: black;
   }
 
-  h4.pos-left{
-    position: relative;
-    left: 1650px;
+  .intro_page{    
+    background-image: url("https://icon-library.com/images/fitness-icon/fitness-icon-11.jpg");
+    background-size: contain;
+    opacity: initial;
+    flood-opacity: 50%;
   }
-

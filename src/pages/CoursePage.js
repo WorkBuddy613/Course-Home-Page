@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Logo from "./../asset/WorkBuddyLogo.PNG";
-import Chest from "./../asset/istockphoto-472494666-612x612.jpg"
 import {
   Route,
   NavLink,
@@ -17,7 +16,6 @@ class CoursePage extends Component {
       <HashRouter>
         <div>
           <img src={Logo} alt="Logo" height={150}/>
-          <img src={Chest}  alt ="Chest" height = {150}/>
           <ul className="header">
             <li><NavLink to="/Introduction">Introduction</NavLink></li>
             <li><NavLink to="/Syllabus">Syllabus</NavLink></li>
